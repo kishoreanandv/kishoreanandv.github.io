@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: 'poppins';
+  display: flex;
+  flex-direction: column;
+}
+
+// Skills Section
+.skillsname {
+  text-align: center;
+  color: #ffd700;
+  font-family: 'poppins';
+
+  &::before {
+    content: '<h1>';
+    font-family: 'La Belle Aurore';
+    font-size: 18px;
+    margin-right: 1rem;
+    opacity: 0.6;
+  }
+  &::after {
+    content: '<h1>';
+    font-family: 'La Belle Aurore';
+    font-size: 18px;
+    opacity: 0.6;
+    margin-left: 1rem;
+  }
+}
+.skills-container {
+  margin-top: 1rem;
+  color: #ffd700;
+  width: 100%;
+  margin-left: 5%;
+}
+.skill-cards {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50%;
+}
+
+.skill-card {
+  opacity: 0;
+  background: #115173;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  animation: backInRight 1s 1.2s;
+  animation-fill-mode: forwards;
+
+  svg {
+    height: 3rem;
+    width: 3rem;
+    animation: fadeIn 1s 1.7s backwards;
+  }
+
+  h2 {
+    opacity: 0;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    animation: fadeIn 1s 1.9s forwards;
+  }
+}
+
+// Projects Section
+.projectname {
+  text-align: center;
+  color: #ffd700;
+  font-family: 'poppins';
+
+  &::before {
+    content: '<h1>';
+    font-family: 'La Belle Aurore';
+    font-size: 18px;
+    margin-right: 1rem;
+    opacity: 0.6;
+  }
+  &::after {
+    content: '<h1>';
+    font-family: 'La Belle Aurore';
+    font-size: 18px;
+    opacity: 0.6;
+    margin-left: 1rem;
+  }
+}
+
+.portfolio-container {
+  margin-top: 1rem;
+  margin-left: 5%;
+
+  .projects {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-item {
+    margin: 2rem;
+    height: 50vh;
+    width: 90%;
+    background-color: #115173;
+    padding: 1rem;
+    animation: backInRight 1s 1.2s;
+    animation-fill-mode: forwards;
+    &:hover {
+      border: 1px solid #ffd700;
+    }
+
+    .banner {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.badge {
+  font-family: 'poppins';
+  font-weight: 500;
+  font-size: 1rem;
+  background: #ffd700;
+  letter-spacing: 0.2rem;
+  color: #000;
+  margin: 1rem;
+  padding: 0.4rem;
+  float: right;
+  border-radius: 0.5rem;
+}
+
+.projecttitle {
+  text-align: center;
+  color: #ffd700;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.btn {
+  color: #ffd700;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-family: 'poppins';
+  text-decoration: none;
+  padding: 7px 10px;
+  border: 1px solid #ffd700;
+  float: left;
+  animation: fadeInAnimation 1s 1.8s backwards;
+  white-space: nowrap;
+
+  &:hover {
+    background: #ffd700;
+    color: #333;
+  }
+}
+
+.btn-primary {
+  background: #ffd700;
+  color: #333;
+
+  &:hover {
+    background: #115173;
+    color: #ffd700;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .skills-container {
+    margin-top: 0;
+    margin-left: 1%;
+    margin-bottom: 2%;
+
+    svg {
+      height: 1.5rem;
+    }
+    h2 {
+      font-size: 0.75rem;
+    }
+  }
+
+  .portfolio-container {
+    .projects {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .portfolio-item {
+        margin: 0;
+        margin-bottom: 1.5rem;
+        width: 80%;
+        height: 100%;
+      }
+    }
+  }
+}

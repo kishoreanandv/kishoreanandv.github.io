@@ -1,0 +1,73 @@
+.aboutmetext {
+  color: #ffd700;
+  text-align: center;
+  font-family: poppins;
+  font-size: 3rem;
+  margin-top: 0;
+
+  &::before {
+    content: '<h1>';
+    font-family: 'La Belle Aurore';
+    font-size: 18px;
+    margin-right: 1rem;
+    opacity: 0.6;
+  }
+  &::after {
+    content: '<h1>';
+    font-family: 'La Belle Aurore';
+    font-size: 18px;
+    opacity: 0.6;
+    margin-left: 1rem;
+  }
+}
+
+.delhi .vertical-timeline-element-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.delhi .vertical-timeline-element-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.freelance .vertical-timeline-element-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.freelance .vertical-timeline-element-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.wipro .vertical-timeline-element-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.wipro .vertical-timeline-element-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.college .vertical-timeline-element-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.college .vertical-timeline-element-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 1200px) {
+  .text-zone {
+    h1 {
+      &::before,
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
