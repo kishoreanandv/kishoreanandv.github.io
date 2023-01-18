@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kishoreanandv.github.io/static/css/main.9b3bffe6.css",
+    "main.js": "/kishoreanandv.github.io/static/js/main.9192204d.js",
+    "static/js/787.aeca62f9.chunk.js": "/kishoreanandv.github.io/static/js/787.aeca62f9.chunk.js",
+    "static/media/ytclone.png": "/kishoreanandv.github.io/static/media/ytclone.7a8d5ac7e1cc639f7b6d.png",
+    "static/media/speedtype.png": "/kishoreanandv.github.io/static/media/speedtype.1d9669b2707ec1191883.png",
+    "static/media/logo-s.png": "/kishoreanandv.github.io/static/media/logo-s.a1cd8e5baf8023a7fe62.png",
+    "static/media/portfolio.png": "/kishoreanandv.github.io/static/media/portfolio.098d12eee771228359d3.png",
+    "static/media/logo_sub.png": "/kishoreanandv.github.io/static/media/logo_sub.6e3749a346d8ed790f3d.png",
+    "static/media/helvetica-neu.ttf": "/kishoreanandv.github.io/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/kishoreanandv.github.io/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/kishoreanandv.github.io/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/kishoreanandv.github.io/index.html",
+    "main.9b3bffe6.css.map": "/kishoreanandv.github.io/static/css/main.9b3bffe6.css.map",
+    "main.9192204d.js.map": "/kishoreanandv.github.io/static/js/main.9192204d.js.map",
+    "787.aeca62f9.chunk.js.map": "/kishoreanandv.github.io/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b3bffe6.css",
+    "static/js/main.9192204d.js"
+  ]
+}
